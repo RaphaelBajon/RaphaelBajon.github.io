@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Raphaël Bajon"
 title_separator          : "-"
 name                     : &name "Raphaël Bajon"
-description              : &description "personal description"
+description              : &description "PhD Candidate - Fan of ML/AI - Data sciences, carbon, climate and oceanography - Python"
 url                      : https://raphaelbajon.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "RaphaelBajon/RaphaelBajon.github.io"
@@ -32,7 +32,7 @@ comments:
     colorscheme          : # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "gh-pages" # "master", "gh-pages"
+  branch                 : "master" # "master", "gh-pages"
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
   format                 : "yml"
@@ -40,7 +40,7 @@ staticman:
   path                   : "_data/comments/{options.slug}"
   requiredFields         : ['name', 'email', 'message']
   transforms:
-    email                : "md5"
+    email                : "raphael.bajon@ifremer.fr"
   generatedFields:
     date:
       type               : "date"
@@ -84,11 +84,11 @@ author:
   avatar           : "profile.png"
   bio              : "PhD Candidate in Carbon, Climate and Ocean sciences - former engineer"
   location         : "Brest, France"
-  employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  employer         : "Ifremer, LOPS"
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  googlescholar    : "https://scholar.google.com/citations?user=L-z_30cAAAAJ&hl=fr"
+  email            : "raphael.bajon@ifremer.fr"
+  researchgate     :  "https://www.researchgate.net/profile/Raphael-Bajon"
   uri              :
   bitbucket        :
   codepen          :
@@ -99,17 +99,17 @@ author:
   github           : "raphaelbajon"
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : "https://www.instagram.com/lebonbaj/"
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  linkedin         : "https://www.linkedin.com/in/raphaël-bajon-4b1037155/"
+  orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    : "https://stackoverflow.com/users/17487834/lebonbaj"
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : #"replacethistwitterhandle"
   vine             :
   weibo            :
   xing             :
